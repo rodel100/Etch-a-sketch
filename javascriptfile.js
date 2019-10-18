@@ -8,17 +8,16 @@ for(i; i < x; i++){
     grid.textContent = "";
     art.appendChild(grid)
 }}
-let reset = document.querySelector('.reset')
+makediv(x);
+let reset = document.querySelector('.reset');
 let grids = document.querySelectorAll('div');
 grids.forEach((div => {
     div.addEventListener("mouseenter", (e) => {
     div.classList.add("colorchange");
     });
-}))
     reset.addEventListener("click", (e) => {
-    grids.forEach((div => {
-    div.classList.remove('colorchange');
-    }))
-    x = prompt("number of pixels needed (Results will be Number x Number")
-    })
-    makediv(x);
+        grids.forEach((div => {
+        div.classList.remove('colorchange');
+        }))
+        })
+}))
