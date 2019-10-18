@@ -1,0 +1,33 @@
+html{
+    background-color: teal;
+}
+.container{
+    display:grid;
+    width: 50%;
+    max-width:  900px;
+    margin: 2% auto;
+    grid-template-columns: repeat(16, 1fr);
+    border: 40px groove darkgrey;
+    background-color: white;
+    border-radius: 10%;
+
+}
+
+.grid{
+    border: 1px solid black;
+    padding: 10px;
+}
+.grid:hover{
+    background-color: yellow;
+}
+.colorchange{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+button{
+    margin-left: 40%;
+}
