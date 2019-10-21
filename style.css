@@ -3,31 +3,29 @@ html{
 }
 .container{
     display:grid;
-    width: 50%;
+    width: 500px;
     max-width:  900px;
     margin: 2% auto;
-    grid-template-columns: repeat(16, 1fr);
     border: 40px groove darkgrey;
     background-color: white;
     border-radius: 10%;
+    max-height: 500px;
+    height: 500px;
 
 }
 
 .grid{
     border: 1px solid black;
-    padding: 10px;
+    padding: 1px;
 }
 .grid:hover{
     background-color: yellow;
-}
-.colorchange{
-    background-color: black;
 }
 h1{
     text-align: center;
     color: white;
     background-color: black;
 }
-button{
-    margin-left: 40%;
+.reset{
+    margin-left: 30%;
 }
